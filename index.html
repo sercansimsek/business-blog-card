@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Business Blog Card Tutorial" />
+		<meta name="keywords" content="HTML, CSS, Responsive design" />
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap"
+			rel="stylesheet"
+		/>
 
-    <title>Business Blog Card | devChallenges.io</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap"
+			rel="stylesheet"
+		/>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+		<link rel="stylesheet" href="styles.css" />
 
-      body {
-        height: 100vh;
-      }
+		<title>Business Blog Card | devChallenges.io</title>
+	</head>
+	<body>
+		<div class="card">
+			<div class="card-hero">
+				<img
+					src="./assets/hero-image-1.jpg"
+					alt="hero image"
+					class="card-hero_image"
+				/>
+				<img
+					src="./assets/white-overlay.svg"
+					alt="white overlay"
+					class="card-hero_overlay"
+				/>
+			</div>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+			<div class="card-info">
+				<h2 class="card-info_title">Perfect solution for small <br>business</h2>
+				<p class="card-info_description">
+					Small businesses need to generate leads to <br>grow. You can use tools
+					like Ringy.
+				</p>
+			</div>
+			<hr />
+			<footer class="card-footer">
+				<div class="card-footer_avatar">
+					<img src="./assets/avatar-image-business-card-1.png" alt="avatar" />
+				</div>
 
-      .author-info a {
-        color: rgb(55, 65, 81);
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Perfect solution for small business
-  
-    Small businesses need to generate leads to grow. You can use tools like Ringy.
-  
-    Amy Burgess
-  
-    Customer Manger, Solution Oy
-   -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
-  </body>
+				<div class="card-footer_info">
+					<h3>Amy Burgess</h3>
+					<p>Customer Manger, Solution Oy</p>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
